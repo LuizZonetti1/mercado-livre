@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Mercado Livre</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="search-container">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_758782-MLA78816706095_082024-F.jpg"
+                    alt="logo-mercado-livre" class="logo">
+                <input type="text" id="searchInput" placeholder="Buscar Produtos ... " class="search-input">
+                <button id="searchBtn" class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Ofertas Imperdiveis</h1>
+        <p>Black Friday DevClub</p>
+    </section>
+
+    <main class="main">
+        <div class="container">
+            <h2 class="section-title">Ofertas do dia</h2>
+            <div class="products-grid" id="productGrid">
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>clone do mercado livre oficial DevClub</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
